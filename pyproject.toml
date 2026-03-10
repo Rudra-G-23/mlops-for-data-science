@@ -8,6 +8,7 @@ dependencies = [
     "matplotlib>=3.10.8",
     "mlflow>=3.10.1",
     "numpy>=2.4.3",
+    "optuna>=4.7.0",
     "pandas>=2.3.3",
     "plotly>=6.6.0",
     "pyspark==3.5.0",
