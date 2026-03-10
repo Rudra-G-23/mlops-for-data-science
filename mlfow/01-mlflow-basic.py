@@ -1,3 +1,9 @@
+""" 
+GOAL: 
+    - What is the MLflow and basic
+    - How to track the para and model and metrics
+"""
+
 import os
 import pandas as pd
 import mlflow
