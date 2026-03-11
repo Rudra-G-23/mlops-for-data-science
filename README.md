@@ -2,3 +2,4 @@
 
 - DVC 
 - MLflow
+- Pydantic
