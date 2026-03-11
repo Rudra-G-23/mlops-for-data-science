@@ -1,0 +1,15 @@
+stages:
+  prepare:
+    cmd: python dvc/src/prepare.py
+    deps:
+    - dvc/data/raw/data.csv
+    - dvc/src/prepare.py
+    outs:
+    - dvc/data/processed/clean_data.csv
+  train:
+    cmd: python dvc/src/train.py
+    deps:
+    - dvc/data/processed/clean_data.csv
+    - dvc/src/train.py
+    outs:
+    - dvc/model/model.pkl
