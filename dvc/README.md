@@ -38,7 +38,9 @@ python dvc/src/train.py
 ```
 
 **Now run `dvc repro`**
+
 You will see this output in terminal
+
 ```bash
 Running stage 'prepare':
 > python dvc/src/prepare.py
@@ -51,3 +53,20 @@ Running stage 'train':
 Model training completed!
 Updating lock file 'dvc.lock'
 ```
+
+**To See the pipeline**
+```cmd
+dvc dag
+```
+
+```cmd
++---------+
+| prepare |
++---------+
+      *
+      *
+      *
+ +-------+
+ | train |
+ +-------+
+ ```
