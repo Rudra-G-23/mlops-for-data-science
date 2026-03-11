@@ -5,6 +5,7 @@ description = "MLOP's for Data Science, My Notes"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "dvc>=3.66.1",
     "fastapi>=0.135.1",
     "matplotlib>=3.10.8",
     "mlflow>=3.10.1",

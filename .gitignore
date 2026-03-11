@@ -1,14 +1,9 @@
 # File created using '.gitignore Generator' for Visual Studio Code: https://bit.ly/vscode-gig
-# Created by https://www.toptal.com/developers/gitignore/api/windows,visualstudiocode,data,git,python,visualstudio
-# Edit at https://www.toptal.com/developers/gitignore?templates=windows,visualstudiocode,data,git,python,visualstudio
-
-### MLflow ###
-mlflow.db
-mlruns/
-mlartifacts/
+# Created by https://www.toptal.com/developers/gitignore/api/windows,visualstudiocode,visualstudio,python,git,data
+# Edit at https://www.toptal.com/developers/gitignore?templates=windows,visualstudiocode,visualstudio,python,git,data
 
 ### Data ###
-# *.csv
+*.csv
 *.dat
 *.efx
 *.gbr
@@ -640,7 +635,7 @@ FodyWeavers.xsd
 ### VisualStudio Patch ###
 # Additional files built by Visual Studio
 
-# End of https://www.toptal.com/developers/gitignore/api/windows,visualstudiocode,data,git,python,visualstudio
+# End of https://www.toptal.com/developers/gitignore/api/windows,visualstudiocode,visualstudio,python,git,data
 
 # Custom rules (everything added below won't be overriden by 'Generate .gitignore File' if you use 'Update' option)
 
