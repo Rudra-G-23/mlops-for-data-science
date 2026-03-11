@@ -8,7 +8,7 @@ mlruns/
 mlartifacts/
 
 ### Data ###
-*.csv
+# *.csv
 *.dat
 *.efx
 *.gbr

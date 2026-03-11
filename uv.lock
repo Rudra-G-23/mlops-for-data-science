@@ -1083,12 +1083,14 @@ name = "mlops-for-data-science"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "fastapi" },
     { name = "matplotlib" },
     { name = "mlflow" },
     { name = "numpy" },
     { name = "optuna" },
     { name = "pandas" },
     { name = "plotly" },
+    { name = "pydantic" },
     { name = "pyspark" },
     { name = "scikit-learn" },
     { name = "seaborn" },
@@ -1096,12 +1098,14 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
+    { name = "fastapi", specifier = ">=0.135.1" },
     { name = "matplotlib", specifier = ">=3.10.8" },
     { name = "mlflow", specifier = ">=3.10.1" },
     { name = "numpy", specifier = ">=2.4.3" },
     { name = "optuna", specifier = ">=4.7.0" },
     { name = "pandas", specifier = ">=2.3.3" },
     { name = "plotly", specifier = ">=6.6.0" },
+    { name = "pydantic", specifier = ">=2.12.5" },
     { name = "pyspark", specifier = "==3.5.0" },
     { name = "scikit-learn", specifier = ">=1.8.0" },
     { name = "seaborn", specifier = ">=0.13.2" },
