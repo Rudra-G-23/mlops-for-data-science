@@ -1,0 +1,28 @@
+name: Check File Naming Convention
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+
+jobs:
+  check-file-names:
+  runs_on: ubuntu-latest
+
+  steps:
+    - name: Checkout Repository
+      uses: actions/Checkout@v4
+
+    - name: Check for uppercase filenames
+      run: |
+        echo "Checking filenames ..."
+        files=$(git ls-files)
+
+        for file in $files; do
+          if [[ "$file" =~ [A-Z] ]]; then
+            echo "Invalid filename: $file (contains uppercase letters)"
+            exit 1
+          fi 
+        done
+
+        echo "All filenames follow lowercase convention"

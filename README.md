@@ -3,3 +3,4 @@
 - DVC 
 - MLflow
 - Pydantic
+- Fast API
