@@ -7,11 +7,11 @@ on:
 
 jobs:
   check-file-names:
-  runs_on: ubuntu-latest
+    runs-on: ubuntu-latest
 
   steps:
     - name: Checkout Repository
-      uses: actions/Checkout@v4
+      uses: actions/checkout@v4
 
     - name: Check for uppercase filenames
       run: |
