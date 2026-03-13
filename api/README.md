@@ -12,3 +12,7 @@ uvicorn api.main:app --reload
 **Lecture 4:**
 - [Lecture](https://www.youtube.com/watch?v=VVVKEfhXCQ4&list=PLKnIA16_RmvZ41tjbKB2ZnwchfniNsMuQ&index=4)
 - [Git Code](https://github.com/campusx-official/fastapi-demo-api)
+
+**Lecture 5:**
+- [Lecture](https://www.youtube.com/watch?v=sw8V7mLl3OI&list=PLKnIA16_RmvZ41tjbKB2ZnwchfniNsMuQ&index=6)
+- [Sir GitHub](https://github.com/campusx-official/fastapi-demo-api/)
